@@ -1,0 +1,19 @@
+{
+  "headers": [
+    {
+      "source": "/.well-known/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/.well-known/:match*",
+      "destination": "/public/.well-known/:match*"
+    }
+  ]
+}
