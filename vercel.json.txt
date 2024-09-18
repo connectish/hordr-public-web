@@ -1,19 +1,22 @@
 {
   "headers": [
     {
-      "source": "/.well-known/(.*)",
+      "source": "/.well-known/apple-app-site-association",
       "headers": [
         {
           "key": "Content-Type",
-          "value": "text/plain"
+          "value": "application/json"
         }
       ]
-    }
-  ],
-  "rewrites": [
+    },
     {
-      "source": "/.well-known/:match*",
-      "destination": "/public/.well-known/:match*"
+      "source": "/.well-known/assetlinks.json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        }
+      ]
     }
   ]
 }
