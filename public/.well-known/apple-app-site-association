@@ -3,7 +3,14 @@
     "apps": [],
     "details": [
       {
-        "appID": "AKCF327G2R.com.hordr.app.Hordr-final",
+        "appIDs": [
+          "AKCF327G2R.com.hordr.app.Hordr-final"
+        ],
+        "webcredentials": {
+          "apps": [
+            "AKCF327G2R.com.hordr.app.Hordr-final"
+          ]
+        },
         "paths": [
           "*"
         ]
