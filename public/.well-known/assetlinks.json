@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "com.hordr.app",
       "sha256_cert_fingerprints": [
-        "3E:A8:B6:AB:0C:0E:D3:60:2A:68:8C:A7:99:21:88:99:CA:CE:C7:3B:D6:AD:A2:7F:48:4D:A6:66:F7:93:B1:59"
+        "3E:A8:B6:AB:0C:0E:D3:60:2A:68:8C:A7:99:21:88:99:CA:CE:C7:3B:D6:AD:A2:7F:48:4D:A6:66:F7:93:B1:59",
+        "E5:28:1C:08:61:7D:59:5D:59:2B:BA:49:EB:F6:CA:47:D7:59:FF:05:5E:BC:44:33:CD:8C:D9:CB:72:E3:21:A2"
       ]
     }
   }
